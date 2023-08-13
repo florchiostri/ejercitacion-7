@@ -1,0 +1,23 @@
+.body{
+    display:grid;
+    grid-template-columns: 1fr;
+}
+
+
+
+@media (min-width:600px){
+    .body{
+        
+        grid-template-columns: 1fr 1fr;
+    }
+    .encabezado{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    
+    .footer{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+}
